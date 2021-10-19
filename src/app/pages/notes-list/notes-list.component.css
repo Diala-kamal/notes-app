@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding-top: 50px;
+}
+
+app-note-card {
+  margin-bottom: 25px;
+  display: block;
+}
+
+button.add-btn {
+  background-color: rgb(197, 150, 219);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 500px;
+}
+.notes-list {
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
